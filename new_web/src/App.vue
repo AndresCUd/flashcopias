@@ -1,8 +1,8 @@
 <template>
   <v-app>
-    <v-app-bar absolute  src="./assets/fondo.jpg" >
+    <v-app-bar absolute  src="./assets/fondo.jpg" height ="100px">
       <div class="d-flex align-center">
-        <v-img class="shrink mr-2" contain src="./assets/logo.png" width="150px"></v-img>
+        <v-img class="shrink mr-2" contain src="./assets/logo.png" width="300px"></v-img>
       </div>
 
       <v-spacer></v-spacer>
