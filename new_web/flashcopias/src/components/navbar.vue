@@ -30,6 +30,7 @@
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
+
   </div>
 </template>
 <style>
