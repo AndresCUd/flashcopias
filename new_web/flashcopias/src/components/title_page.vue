@@ -1,7 +1,7 @@
 <template>
-  <div style="padding-left:20%;padding-right:20%;">
+  <div>
     <b-container block class="buenas"
-      ><strong> {{ title }} </strong>
+      ><p>{{ title }}</p>
     </b-container>
   </div>
 </template>
@@ -12,15 +12,18 @@ export default {
 </script>
 
 <style spand>
-strong {
-  font-size: 4vh;
-  color: black;
+p {
+  font-size: 1.5rem;
+  color: whitesmoke;
 }
 
 .buenas {
-  background-color: #d2d2d2;
-  border-radius: 6px;
-  width: 100%;
+  background-color: rgb(88, 86, 86);
+  padding: 0%;
+  min-width: 100%;
+  max-width: 100%;
+  max-height: 2.5rem;
+  min-height: 2.5rem;
 }
 div {
   width: 100%;

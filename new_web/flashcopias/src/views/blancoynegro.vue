@@ -1,13 +1,17 @@
 <template>
   <b-container fluid style="min-height: 33vw;">
     <b-row align-v="stretch">
-      <title-page title="FOTOCOPIAS E IMPRESIÓN LASER B&N - COLOR" />
+      <title-page title="Fotocopias e impresiones lasser B&N - Color" />
     </b-row>
-    <b-row align-h="around">
-      <b-col>
-        <img src="../assets/maquina.png" alt="Kitten" style="width: 18vw;" />
+    <b-row>
+      <b-col style="margin-top:5em;" sm="4">
+        <img
+          src="../assets/maquina.png"
+          alt="Kitten"
+          style="width: 15em;padding: 2%;"
+        />
       </b-col>
-      <b-col>
+      <b-col sm="4">
         <p class="hola">
           Dale un toque especial a tus proyectos imprimiendo en diferentes tipos
           y tamaños de papel <br />
@@ -17,7 +21,7 @@
           Papeles: Bond 75 grs, Opalina, Cartulina, propalcote, Fotográfico
         </p>
       </b-col>
-      <b-col align-h="end" style="bottom:0px;">
+      <b-col sm="4">
         <p class="hola" style=" padding:20% ;">
           Sabemos lo valioso que es tu tiempo por eso envíanos tus archivos para
           impresión vía email
@@ -40,14 +44,15 @@ export default {
 <style scoped>
 div {
   margin: 0%;
-  background-color: cornsilk;
+  background-color: white;
 }
 .hola {
-  font-weight: 400;
-  margin-top: 5%;
-  font-size: 4vh;
+  font-weight: 500;
+  margin-top: 10%;
+  font-size: 1.5rem;
+  color: #3f3f3f;
+  padding: 2%;
 }
-
 .container-fluid {
   position: sticky;
 }

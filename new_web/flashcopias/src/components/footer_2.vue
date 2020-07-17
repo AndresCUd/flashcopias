@@ -1,59 +1,65 @@
 <template v-slot:footer>
-  <b-container fluid>
-    <b-navbar toggleable="lg" class="page-footer">
-      <b-navbar-nav class="mx-1">
-        <a href="https://goo.gl/maps/ygxB3vxdpDAPt7V66" target="blank">
-          <img
-            src="../assets/SVG/ubicacion.svg"
-            class="d-inline-block align-left"
-            alt="Kitten"
-            style="width: 5vmin;"
-          />
-          <br />
-          Cra 15 No. 47-14 <br />
-          BOGOTA- COLOMBIA
-        </a>
-      </b-navbar-nav>
-      <b-navbar-nav class="col-1" align="center"> </b-navbar-nav>
-      <b-navbar-nav class="mx-auto" align="center">
-        <b-button> <strong> COTIZA AQUI ! </strong> </b-button>
-      </b-navbar-nav>
-      <b-navbar-nav class="l-0 r-0">
-        <p>
-          <a> 2456282 </a>
-          <img
-            src="../assets/SVG/llamada.svg"
-            class="d-inline-block align-left"
-            alt="Kitten"
-            style="width: 6%;"
-          />
-          <br />
-          <a> 317-5871273 </a>
-          <img
-            src="../assets/SVG/whatsapp.svg"
-            class="d-inline-block align-left"
-            alt="Kitten"
-            style="width: 6%;"
-          />
-          <br />
-          <a> flashcopias@hotmail.com </a>
-          <img
-            src="../assets/SVG/correo.svg"
-            class="d-inline-block align-left"
-            alt="Kitten"
-            style="width: 6%;"
-          />
-
-          <br />
-        </p>
-      </b-navbar-nav>
-    </b-navbar>
-  </b-container>
+  <b-navbar toggleable="mx" class="page-footer">
+    <b-navbar-nav class="mx-auto mx-md-0">
+      <a href="https://goo.gl/maps/ygxB3vxdpDAPt7V66" target="blank">
+        <img
+          src="../assets/SVG/ubicacion.svg"
+          class="d-inline-block align-left "
+          style="width: 3rem;"
+        />
+        <br />
+        Cra 15 No. 47-14 <br />
+        BOGOTA- COLOMBIA
+      </a>
+    </b-navbar-nav>
+    <b-navbar-nav class="mx-md-0 md-auto">
+      <b-container style="width: 20rem;">
+        <b-row>
+          <b-col style="text-align: center">
+            <a style="font-size: 1.5rem;">Contáctanos </a>
+          </b-col>
+        </b-row>
+        <b-row>
+          <b-col cols="2"
+            ><img
+              src="../assets/SVG/llamada.svg"
+              class="d-inline-block aling-right"
+              alt="Kitten"
+              style="width: 1.2rem;"
+            />
+          </b-col>
+          <b-col cols="auto"><p>2456282</p></b-col>
+        </b-row>
+        <b-row>
+          <b-col cols="2">
+            <img
+              left
+              src="../assets/SVG/whatsapp.svg"
+              class="d-inline-block aling-right"
+              alt="Kitten"
+              style="width: 1.2rem;"
+            />
+          </b-col>
+          <b-col cols="auto"> <p>3175871273</p></b-col>
+        </b-row>
+        <b-row>
+          <b-col cols="2">
+            <img
+              src="../assets/SVG/correo.svg"
+              class="d-inline-block aling-right"
+              alt="Kitten"
+              style="width: 1.2rem;"
+            />
+          </b-col>
+          <b-col cols="auto"><p>flashcopias@hotmail.com</p></b-col>
+        </b-row>
+      </b-container>
+    </b-navbar-nav>
+  </b-navbar>
 </template>
 
 <style spand>
 nav {
-  background-image: url("../assets/fondo_top.png");
   margin: 0px;
   padding: 0px;
   margin-top: 0px;
@@ -65,18 +71,32 @@ nav {
   /* Needed to position the navbar */
 }
 
+.page-footer {
+  background-color: #2d2d2d;
+}
+p {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #42b983;
+  margin: 0%;
+}
 strong,
 a {
-  font-size: 2vh;
+  font-size: 1rem;
   font-weight: bold;
-  color: black;
+  color: #3f3f3f;
 }
 div {
   padding-bottom: 0px;
   margin-bottom: 0px;
 }
+div.col {
+  text-align: left;
+  padding: 0%;
+  height: auto;
+}
 a:hover {
-  color: black;
+  color: gray;
   text-decoration: none;
 }
 </style>

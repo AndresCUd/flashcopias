@@ -1,22 +1,22 @@
 <template>
-  <div fluid style="min-height: 33vw;">
+  <div>
     <b-row>
       <title-page title="ESCANNER" />
     </b-row>
     <b-row>
-      <b-col style="margin-top: 5%;width: 25vw">
-        <b-img left src="../assets/maquina_1.png" style="width: 20vw" />
+      <b-col sm="3" style="margin-top: 5%">
+        <b-img fluid center src="../assets/maquina_1.png" style="width:18em" />
       </b-col>
-      <b-col>
+      <b-col sm="3">
         <p class="hola">
           Scanner alta velocidad hasta tamaño tabloide, a PDF, o JPG
         </p>
       </b-col>
-      <b-col style="margin-top: 5%;width: 25vw">
-        <b-img left src="../assets/ploter.png" style="width: 20vw;" />
+      <b-col sm="3" style="margin-top: 5% ">
+        <b-img fluid center src="../assets/ploter.png" style="width:15em;" />
       </b-col>
-      <b-col>
-        <p class="hola">Escanner Gran formato PDF, o JPG</p>
+      <b-col sm="3">
+        <p class="hola">Escanner Gran formato PDF o JPG</p>
       </b-col>
     </b-row>
   </div>
@@ -35,13 +35,13 @@ export default {
 <style scoped>
 div {
   margin: 0%;
-  background-color: cornsilk;
+  background-color: white;
 }
 .hola {
-  font-weight: 700;
-  margin-top: 45%;
-  font-size: 5vh;
-  color: #7f7f7f;
+  font-weight: 400;
+  font-size: 1.8rem;
+  color: #3f3f3f;
+  margin-block-start: 20%;
 }
 
 .container-fluid {

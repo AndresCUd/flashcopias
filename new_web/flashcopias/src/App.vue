@@ -19,27 +19,15 @@ export default {
 <style>
 #app {
   text-align: center;
-  padding: 0%;
   margin: 0%;
   height: 100%;
-
-  background-image: url("./assets/fondo.png");
-}
-html,
-body,
-#app {
-  height: 100%;
-}
-html {
-  min-height: 100%;
-  position: sticky;
+  overflow: hidden;
+  height: auto;
+  word-wrap: break-word;
 }
 body {
-  margin: 0;
-  margin-bottom: 0px;
-  resize: none;
+  background-image: url("./assets/fondo.png");
 }
-
 .container-fluid {
   padding: 0%;
   margin: 0%;
@@ -49,4 +37,7 @@ body {
   color: #42b983;
 }
 
+.hola2 {
+  min-height: 25em;
+}
 </style>

@@ -1,6 +1,6 @@
 <template>
   <b-row style="min-height: 33vw;">
-    <title-page title="EMPASTES" />
+    <title-page title="Empastes" />
     <carruseles v-bind:items="items" />
   </b-row>
 </template>
@@ -18,7 +18,7 @@ export default {
     return {
       items: [
         {
-          title: "ESPIRAL",
+          title: "Espiral",
           text:
             "Anillo plástico, caratula plástica policover, ideal hasta 150 hojas",
           img: require("@/assets/empastes/espirales.png"),
@@ -26,7 +26,7 @@ export default {
           index: 0,
         },
         {
-          title: "DOBLE O ",
+          title: "Doble O ",
           text:
             "Anillo metálico, caratula plástica policover, ideal hasta 80 hojas",
           img: require("@/assets/empastes/doble _o.png"),
@@ -34,25 +34,25 @@ export default {
           index: 1,
         },
         {
-          title: "VELOBIND",
+          title: "Velobind",
           text:
-            "Banda platica con 4 pines, caratula plástica policover, ideal hasta 50 hojas",
+            "Banda plástica con 4 pines, caratula plástica policover, ideal hasta 50 hojas",
           img: require("@/assets/empastes/velobind.png"),
           diabled: true,
           index: 2,
         },
         {
-          title: "RUSTICO",
-          text: "Tapa plástica policover. Cosido, lomo en Percalina.",
+          title: "Rústico",
+          text: "Tapa plástica policover, cosido y pegado, lomo en percalina.",
           img: require("@/assets/empastes/rustico.png"),
           diabled: true,
           index: 3,
         },
         {
-          title: "DOBLE O ",
+          title: "Catálogo colores empastes",
           text:
-            "Anillo metálico, caratula plástica policover, ideal hasta 80 hojas",
-          img: require("@/assets/empastes/doble _o.png"),
+            "Con esta diversidad de tapas plásticas policover, le darás un toque personal a tus trabajos",
+          img: require("@/assets/empastes/catalogo_colores.png"),
           diabled: false,
           index: 4,
         },
@@ -65,7 +65,8 @@ export default {
 <style scoped>
 div {
   margin: 0%;
-  background-color: cornsilk;
+
+  background-color: white;
 }
 .container-fluid {
   position: absolute;
