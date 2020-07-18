@@ -9,7 +9,7 @@
         <b-nav-item-dropdown text="Impresiones" right>
           <b-dropdown-item :to="{ name: 'B&N' }">B&N - Color</b-dropdown-item>
           <b-dropdown-item :to="{ name: 'CD' }">CD's</b-dropdown-item>
-          <b-dropdown-item :to="{ name: 'ploter' }">Ploter</b-dropdown-item>
+          <b-dropdown-item :to="{ name: 'ploter' }">Plotter</b-dropdown-item>
         </b-nav-item-dropdown>
         <b-dd-divider class="mx-4" inset vertical></b-dd-divider>
         <b-nav-item-dropdown text="Encuadernación" right>
