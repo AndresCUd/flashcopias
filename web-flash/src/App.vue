@@ -66,7 +66,7 @@
       </v-list>
     </v-navigation-drawer>
 
-    <v-main relative style="margin-bottom: 10rem;margin-top: 3.5rem;">
+    <v-main relative style="margin-bottom: 12rem;margin-top: 3.5rem;">
       <router-view /> <navButton />
     </v-main>
     <piePagina />

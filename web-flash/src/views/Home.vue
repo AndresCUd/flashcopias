@@ -1,5 +1,5 @@
 <template>
-  <v-main fluid id="home">
+  <v-main fluid>
     <title-2 title="Fotocopias e impresiones B&N  y color laser" />
     <v-main style="padding-left: 10%;padding-right: 12%;padding-top: 2%">
       <p class="font-title-30">
