@@ -1,5 +1,5 @@
 <template>
-  <v-footer height="auto" color="grey" dark fixed text-xs-center>
+  <v-footer color="grey" dark text-xs-center>
     <v-layout justify-space-around>
       <v-flex text-xs-center cols="12" sm="4">
         <a href="https://goo.gl/maps/ygxB3vxdpDAPt7V66" target="blank">
@@ -16,14 +16,23 @@
     <v-layout justify-space-around>
       <v-flex text-xs-center>
         <p style="text-align: left;" class="parrafo">
-          <v-icon>mdi-phone-classic </v-icon>
-          2456282
+          <a href="tel:0312456282">
+            <v-icon>mdi-phone-classic </v-icon>
+            2456282
+          </a>
           <br />
-          <v-icon>mdi-whatsapp </v-icon>
-          3175871273
+          <a
+            href="https://api.whatsapp.com/send?phone=573175871273&text=Hola%2C%20que%20horario%20de%20atenci%C3%B3n%20tiene%20%3F"
+            target="blank"
+          >
+            <v-icon>mdi-whatsapp</v-icon> 317-5871273
+          </a>
+
           <br />
-          <v-icon>mdi-email-edit </v-icon>
-          flashcopias@hotmail.com
+          <a href="mailto:flashcopias@hotmail.com">
+            <v-icon>mdi-email-edit </v-icon>
+            flashcopias@hotmail.com
+          </a>
         </p>
       </v-flex>
     </v-layout>
@@ -48,10 +57,13 @@ export default {
 }
 
 a {
-  font-size: 0.8rem;
-  font-weight: bold;
-  color: #3f3f3f;
+  font-size: 1rem;
+  font-weight: 400;
+  color: white !important;
   text-decoration: none;
+  margin: 0%;
+  padding: 0%;
+  text-align: center;
 }
 a:hover {
   color: gray;

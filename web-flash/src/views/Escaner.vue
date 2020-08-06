@@ -7,18 +7,20 @@
           <v-img
             style="margin-rigth:0;display:block;margin:auto;"
             src="../assets/maquina_1.png"
+            
             max-width="24rem"
           />
         </v-col>
         <v-col cols="12" sm="3">
           <p class="hola">
-            Scanner alta velocidad hasta tamaño tavloide, a PDF, o JPG
+            Scanner alta velocidad hasta tamaño tabloide, a PDF, o JPG
           </p>
         </v-col>
         <v-col cols="12" sm="3" style="margin-top: 5% ">
           <v-img
             style="margin-rigth:0;display:block;margin:auto;"
             src="../assets/ploter.png"
+            
             max-width="24rem"
           />
         </v-col>

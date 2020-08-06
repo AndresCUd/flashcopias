@@ -7,7 +7,7 @@
       rounded
       to="/cotiza"
     >
-      Cotiza Aqui !</v-btn
+      Envía Aqui !</v-btn
     >
   </v-main>
 </template>
@@ -32,7 +32,7 @@ export default {
 </script>
 <style scoped>
 .boton-flotante {
-  bottom: 35vh;
+  bottom: 3vh;
   right: 7%;
 }
 </style>

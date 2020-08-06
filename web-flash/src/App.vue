@@ -41,17 +41,23 @@
       </v-toolbar-items>
       <v-spacer style="max-width: 5%;"></v-spacer>
     </v-app-bar>
-    <v-navigation-drawer fluid fixed temporary dark v-model="sideNav">
-      <v-list>
+    <v-navigation-drawer
+      fixed
+      temporary
+      v-model="sideNav"
+      src="./assets/fondo_top.png"
+    >
+      <v-list flat>
         <v-list-group
-          sub-group
           no-action
           v-for="(items, index) in menuItems"
           :key="index"
         >
           <template v-slot:activator>
             <v-list-item-content>
-              <v-list-item-title>{{ items.title }}</v-list-item-title>
+              <v-list-item-title style=" color: #f5f5f5 !important;">{{
+                items.title
+              }}</v-list-item-title>
             </v-list-item-content>
           </template>
           <v-list-item
@@ -59,18 +65,35 @@
             :key="index2"
             route
             :to="ite.link"
+            style=" color: #f5f5f5 !important;"
           >
             <v-list-item-title>{{ ite.title }}</v-list-item-title>
           </v-list-item>
         </v-list-group>
       </v-list>
     </v-navigation-drawer>
-
-    <v-main relative style="margin-bottom: 12rem;margin-top: 3.5rem;">
-      <router-view /> <navButton />
+    <v-main relative style="margin-top: 3.5rem;">
+      <router-view />
     </v-main>
     <piePagina />
+    <navButton />
   </v-app>
+
+  <!--
+     ═══•◉•═════
+▂▄▄▓▄▄▂
+◢◤ █▀▀████▄▄▄▄◢◤
+█▄ █ █▄ ███▀▀▀▀▀▀▀╬
+◥█████◤
+═╩══╩═
+╬═╬
+╬═╬
+╬═╬
+╬═╬ Chau, desinstalen.
+╬═╬ ●/
+╬═╬/▌
+╬═╬/ \  
+  -->
 </template>
 
 <script>

@@ -1,7 +1,9 @@
 <template>
   <div>
-    <v-main block class="buenas"
-      ><p class="titulo" style="padding-top: 0.6rem;font-size: 1.3rem;">{{ title }}</p>
+    <v-main class="buenas"
+      ><p class="titulo" style="padding-top: 0.6rem;font-size: 1.3rem;">
+        {{ title }}
+      </p>
     </v-main>
   </div>
 </template>
@@ -17,7 +19,7 @@ export default {
   padding: 0%;
   min-width: 100%;
   max-width: 100%;
-  max-height: 4rem;
+  max-height: 4.2rem;
   min-height: 2.8rem;
   text-align: center;
 }

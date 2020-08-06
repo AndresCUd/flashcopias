@@ -46,7 +46,7 @@ export default {
         {
           title: "Rústico",
           text: "Tapa plástica policover, cosido y pegado, lomo en percalina.",
-          img: require("@/assets/empastes/rustico.png"),
+          img: require("@/assets/empastes/rustico.jpg"),
           diabled: true,
           index: 3,
         },
@@ -54,7 +54,7 @@ export default {
           title: "Catálogo colores empastes",
           text:
             "Con esta diversidad de tapas plásticas policover, le darás un toque personal a tus trabajos",
-          img: require("@/assets/empastes/catalogo_colores.png"),
+          img: require("@/assets/empastes/img-Micas.jpg"),
           diabled: false,
           index: 4,
         },

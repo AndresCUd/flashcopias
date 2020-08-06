@@ -22,8 +22,9 @@
         </v-col>
         <v-col cols="12" sm="4">
           <p class="hola">
-            Sabemos lo valioso que es tu tiempo por eso envíanos tus archivos
-            para impresión vía email
+            Grabamos en CD o DVD ya sea texto, video, o tus fotos favoritas;
+            adicional le puedes dar un toque personal con el diseño que desees
+            imprimirle al disco.
           </p></v-col
         >
       </v-row>

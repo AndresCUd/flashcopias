@@ -7,6 +7,7 @@
           <v-img
             style="margin-rigth:0;display:block;margin:auto;"
             src="../assets/maquina.png"
+            
             max-width="15rem"
           />
         </v-col>

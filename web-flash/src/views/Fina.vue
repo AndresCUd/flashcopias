@@ -30,7 +30,7 @@ export default {
         {
           title: "Personalizado",
           text:
-            "Pasta dura o blanda, puede incluir cualquier diseño que desee para su portada, nosotros la imprimimos en calidad láser, la plastificamos al calor y empastamos.",
+            "Pasta dura o blanda, puedes incluir cualquier diseño que desees para la portada, nosotros la imprimimos en calidad láser, la plastificamos al calor y empastamos.",
           img: require("@/assets/empastes/libros_pasta_blanda.png"),
           diabled: false,
           index: 1,
