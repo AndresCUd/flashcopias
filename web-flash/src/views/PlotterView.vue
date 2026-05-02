@@ -5,23 +5,26 @@
       <v-row>
         <v-col cols="12" sm="4">
           <v-img
-            style="margin-top:3rem;display:block;margin:auto;"
+            style="margin-top: 3rem; display: block; margin: auto"
             src="../assets/ploter.png"
-            
             max-width="20rem"
           />
         </v-col>
         <v-col cols="12" sm="4">
-          <p class="hola" style="margin-top:5rem;">
+          <p class="hola" style="margin-top: 5rem">
             Una óptima calidad también depende del tipo de papel escogido, entre
             los cuales tenemos Bond, opalina y pergamino.
           </p></v-col
         >
-        <v-col cols="12" sm="4" style="margin-top:3rem;">
+        <v-col cols="12" sm="4" style="margin-top: 3rem">
           <v-img
-            style="margin-top:3rem;margin-rigth:0;display:block;margin:auto;"
+            style="
+              margin-top: 3rem;
+              margin-rigth: 0;
+              display: block;
+              margin: auto;
+            "
             src="../assets/planos.png"
-            
             max-width="30rem"
           />
         </v-col>
@@ -31,9 +34,9 @@
 </template>
 
 <script>
-import title_page from "../components/title_page";
+import title_page from "../components/PageTitleBanner";
 export default {
-  name: "CD",
+  name: "PlotterView",
   components: {
     "title-page": title_page,
   },

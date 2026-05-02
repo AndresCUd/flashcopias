@@ -33,7 +33,12 @@
       </v-card>
     </v-overlay>
     <v-main
-      style="padding-bottom: 2%;padding-top: 2%;padding-left: 10%;padding-right: 12%"
+      style="
+        padding-bottom: 2%;
+        padding-top: 2%;
+        padding-left: 10%;
+        padding-right: 12%;
+      "
     >
       <v-form ref="form" v-model="valid" lazy-validation>
         <v-text-field
@@ -120,7 +125,7 @@
 </template>
 
 <script>
-import title_page from "../components/title_page";
+import title_page from "../components/PageTitleBanner";
 import postRequest from "@/plugins/Api.js";
 //import axios from "axios";
 export default {

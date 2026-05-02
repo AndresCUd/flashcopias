@@ -1,13 +1,12 @@
 <template>
   <v-main>
     <title-page title="Fotocopias e impresiones lasser B&N - Color" />
-    <v-main style="padding-left: 10%;padding-right: 12%">
+    <v-main style="padding-left: 10%; padding-right: 12%">
       <v-row align="center">
-        <v-col style="margin-top:2em;" cols="12" sm="4">
+        <v-col style="margin-top: 2em" cols="12" sm="4">
           <v-img
-            style="margin-rigth:0;display:block;margin:auto;"
+            style="margin-rigth: 0; display: block; margin: auto"
             src="../assets/maquina.png"
-            
             max-width="15rem"
           />
         </v-col>
@@ -22,7 +21,7 @@
           </p>
         </v-col>
         <v-col cols="12" sm="4">
-          <p style=" padding:10% ;" class="hola">
+          <p style="padding: 10%" class="hola">
             Sabemos lo valioso que es tu tiempo por eso envíanos tus archivos
             para impresión vía email
           </p></v-col
@@ -33,9 +32,9 @@
 </template>
 
 <script>
-import title_page from "../components/title_page";
+import title_page from "../components/PageTitleBanner";
 export default {
-  name: "impresiones",
+  name: "ImpresionesView",
   components: {
     "title-page": title_page,
   },

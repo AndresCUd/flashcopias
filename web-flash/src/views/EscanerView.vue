@@ -1,13 +1,12 @@
 <template>
   <v-main fluid>
     <title-page title="Escaner" />
-    <v-main style="padding-top: 2%;padding-left: 10%;padding-right: 12%">
+    <v-main style="padding-top: 2%; padding-left: 10%; padding-right: 12%">
       <v-row>
         <v-col cols="12" sm="3" style="margin-top: 5%">
           <v-img
-            style="margin-rigth:0;display:block;margin:auto;"
+            style="margin-rigth: 0; display: block; margin: auto"
             src="../assets/maquina_1.png"
-            
             max-width="24rem"
           />
         </v-col>
@@ -16,11 +15,10 @@
             Scanner alta velocidad hasta tamaño tabloide, a PDF, o JPG
           </p>
         </v-col>
-        <v-col cols="12" sm="3" style="margin-top: 5% ">
+        <v-col cols="12" sm="3" style="margin-top: 5%">
           <v-img
-            style="margin-rigth:0;display:block;margin:auto;"
+            style="margin-rigth: 0; display: block; margin: auto"
             src="../assets/ploter.png"
-            
             max-width="24rem"
           />
         </v-col>
@@ -33,9 +31,9 @@
 </template>
 
 <script>
-import title_page from "../components/title_page";
+import title_page from "../components/PageTitleBanner";
 export default {
-  name: "Escaner",
+  name: "EscanerView",
   components: {
     "title-page": title_page,
   },

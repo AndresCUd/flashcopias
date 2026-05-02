@@ -3,7 +3,7 @@
     <v-layout justify-space-around>
       <v-flex text-xs-center cols="12" sm="4">
         <a href="https://goo.gl/maps/ygxB3vxdpDAPt7V66" target="blank">
-          <p style="font-size: 0.9rem;" class="parrafo">
+          <p style="font-size: 0.9rem" class="parrafo">
             <v-icon> mdi-map-marker-radius</v-icon>
             <br />
             Cra 15 No. 47-14 <br />
@@ -15,7 +15,7 @@
     <v-spacer> </v-spacer>
     <v-layout justify-space-around>
       <v-flex text-xs-center>
-        <p style="text-align: left;" class="parrafo">
+        <p style="text-align: left" class="parrafo">
           <a href="tel:0312456282">
             <v-icon>mdi-phone-classic </v-icon>
             2456282

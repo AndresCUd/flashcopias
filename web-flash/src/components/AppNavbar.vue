@@ -1,5 +1,5 @@
 <template>
-  <v-main style="position: fixed;" class="float-left boton-flotante ">
+  <v-main style="position: fixed" class="float-left boton-flotante">
     <v-btn
       v-if="$route.path != '/cotiza'"
       color="purple"

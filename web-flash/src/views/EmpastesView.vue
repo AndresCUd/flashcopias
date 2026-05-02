@@ -1,17 +1,17 @@
 <template>
   <v-main fluid>
     <title-page title="Empastes" />
-    <v-main style="padding-top: 2%;padding-left: 10%;padding-right: 12%">
+    <v-main style="padding-top: 2%; padding-left: 10%; padding-right: 12%">
       <carruseles v-bind:items="items" />
     </v-main>
   </v-main>
 </template>
 
 <script>
-import carruseles from "../components/carrusel";
-import title_page from "../components/title_page";
+import carruseles from "../components/ImageCarousel";
+import title_page from "../components/PageTitleBanner";
 export default {
-  name: "carruseal",
+  name: "EmpastesView",
   components: {
     carruseles,
     "title-page": title_page,
@@ -21,24 +21,21 @@ export default {
       items: [
         {
           title: "Espiral",
-          text:
-            "Anillo plástico, caratula plástica policover, ideal hasta 150 hojas",
+          text: "Anillo plástico, caratula plástica policover, ideal hasta 150 hojas",
           img: require("@/assets/empastes/espirales.png"),
           diabled: false,
           index: 0,
         },
         {
           title: "Doble O ",
-          text:
-            "Anillo metálico, caratula plástica policover, ideal hasta 80 hojas",
+          text: "Anillo metálico, caratula plástica policover, ideal hasta 80 hojas",
           img: require("@/assets/empastes/doble _o.png"),
           diabled: false,
           index: 1,
         },
         {
           title: "Velobind",
-          text:
-            "Banda plástica con 4 pines, caratula plástica policover, ideal hasta 50 hojas",
+          text: "Banda plástica con 4 pines, caratula plástica policover, ideal hasta 50 hojas",
           img: require("@/assets/empastes/velobind.png"),
           diabled: true,
           index: 2,
@@ -52,8 +49,7 @@ export default {
         },
         {
           title: "Catálogo colores empastes",
-          text:
-            "Con esta diversidad de tapas plásticas policover, le darás un toque personal a tus trabajos",
+          text: "Con esta diversidad de tapas plásticas policover, le darás un toque personal a tus trabajos",
           img: require("@/assets/empastes/img-Micas.jpg"),
           diabled: false,
           index: 4,
